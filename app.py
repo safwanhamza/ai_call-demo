@@ -182,7 +182,7 @@ HTML_TEMPLATE = """
             </div>
             <div>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Haziq Hassan" required>
+                <input type="text" id="name" name="name" placeholder="e.g. John Doe" required>
             </div>
             <button type="submit" {% if remaining_calls <= 0 %}disabled{% endif %}>
                 Place Call
@@ -279,3 +279,4 @@ if __name__ == "__main__":
     print("\nStakeholder Control:") 
     print(f"  > To reset the call balance, visit: http://127.0.0.1:5000/reset\n") 
     app.run(debug=True, port=5000)
+
