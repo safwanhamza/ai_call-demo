@@ -76,7 +76,7 @@ HTML_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vapi Call Demo</title>
+    <title>Outbound Call Demo</title>
     <style>
         body { 
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -171,7 +171,7 @@ HTML_TEMPLATE = """
 </head>
 <body>
     <div class="container">
-        <h2>Place a Personalized Vapi Call</h2>
+        <h2>Place a Personalized Outbound Call</h2>
         
 
         
@@ -279,4 +279,5 @@ if __name__ == "__main__":
     print("\nStakeholder Control:") 
     print(f"  > To reset the call balance, visit: http://127.0.0.1:5000/reset\n") 
     app.run(debug=True, port=5000)
+
 
